@@ -123,10 +123,10 @@ aside {
 
   .app .image-background img {
     position: absolute;
-    max-width: 209px;
+    max-width: 170px;
     width: 100%;
     margin-top: 20px;
-    margin-left: 28px;
+    margin-left: 5px;
     top: 0;
   }
 

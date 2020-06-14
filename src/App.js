@@ -17,8 +17,8 @@ function App() {
             <h4>I'm Diego Paiva</h4>
           </div>
           <div className="body">
-            <p>I'm from Fortaleza, Ceará. Currently i'm studying and working and developing system. I have experiences with modern
-              techs and frameworks as ReactJs, NodeJS, Slim, Laravel, Codeigneiter.
+            <p>I'm from Fortaleza, Ceará. Currently i'm developer full stack working with PHP and Javascript. I have experiences
+              with modern techs and frameworks as ReactJs, NodeJS, Slim, Laravel, Codeigneiter.
             </p>
             <br />
             <p>
