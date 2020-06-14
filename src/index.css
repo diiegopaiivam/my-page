@@ -1,13 +1,136 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    font: 400 14px Roboto, sans-serif;
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+input, button, textarea {
+    font: 400 18px Roboto, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.app {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app .description {
+  width: 100%;
+  max-width: 400px;
+}
+
+.app .description .title {
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+.app .description .body {
+  color: gray;
+  font-size: 12pt;
+  max-width: 390px;
+  margin-top: 50px;
+
+}
+
+.app .image-background img {
+  margin-top: 100px;
+  max-width: 500px;
+  width: 100%;
+}
+
+footer .redes-sociais {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  float: left;
+}
+
+footer .redes-sociais img {
+  max-width: 50px;
+  width: 100%;
+}
+
+aside {
+  position: fixed;
+  background-color: #67e8d2;
+  height: 100%;
+  max-width: 30px;
+  width: 100%;
+  left: 0;
+
+}
+
+@media (width: 320px){
+  .app {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 30px;
+  }
+
+  aside {
+    display: none;
+  }
+}
+
+@media (width: 375px){
+  aside {
+    display: none;
+  }
+}
+
+@media (width: 425px){
+  aside {
+    display: none;
+  }
+}
+
+@media (max-width: 490px){
+  .app {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 30px;
+  }
+
+  .app .description {
+    margin-top: 92px;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .app .image-background img {
+    position: absolute;
+    max-width: 209px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 28px;
+    top: 0;
+  }
+
+  aside {
+    display: none;
+  }
 }
