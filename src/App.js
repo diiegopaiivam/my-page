@@ -22,10 +22,11 @@ function App() {
             </p>
             <br />
             <p>
-              I want much contribute for helped began in profession, but i want to learn with others professionals.
+              I want to contribute very much to help the professionals that are beginning their carrers, but i especially
+              want to learn with others professionals.
             </p><br></br><br></br>
             <div className="contact">
-              <strong>Contact for me</strong>
+              <strong>Contact me</strong>
               <p>Feel free to reach me out on social networks, or you can write to me through diego@devce.com.br</p>
             </div>
           </div>
