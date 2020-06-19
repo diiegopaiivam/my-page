@@ -17,13 +17,13 @@ function App() {
             <h4>I'm Diego Paiva</h4>
           </div>
           <div className="body">
-            <p>I'm from Fortaleza, Ceará. Currently i'm developer full stack working with PHP and Javascript. I have experiences
-              with modern techs and frameworks as ReactJs, NodeJS, Slim, Laravel, Codeigneiter.
+            <p>I'm from Fortaleza, Ceará. I'm currently a full stack developer working with PHP and Javascript. I have experiences
+              with modern techs and frameworks as ReactJS, NodeJS, Slim, Laravel, Codeigneiter.
             </p>
             <br />
             <p>
-              I want to contribute very much to help the professionals that are beginning their carrers, but i especially
-              want to learn with others professionals.
+              I want to contribute into helping professionals that are at the start of their carrers and especially
+              improve my skills learning  through others or (other) professionals.
             </p><br></br><br></br>
             <div className="contact">
               <strong>Contact me</strong>
