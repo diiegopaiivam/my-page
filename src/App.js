@@ -23,7 +23,7 @@ function App() {
             <br />
             <p>
               I want to contribute into helping professionals that are at the start of their carrers and especially
-              improve my skills learning  through others or (other) professionals.
+              improve my skills learning through others professionals.
             </p><br></br><br></br>
             <div className="contact">
               <strong>Contact me</strong>
